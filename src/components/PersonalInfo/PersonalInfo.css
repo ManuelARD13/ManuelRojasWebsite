@@ -1,0 +1,57 @@
+.personalInfoSection {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+    min-height: 93.5vh;
+    padding: 6.5vh 100px 0 150px;
+    background-color: rgb(2,2,2);
+    gap: 25px;
+  }
+  
+  .personalInfoSection .personalImgContainer {
+    border: 10px solid rgba(201, 0, 214, 0.7);
+    margin: 50px 40px 0px 0px;
+    height: 395px;
+    width: 300px;
+    border-radius: 0 0 0px 85px;
+  }
+  
+  .personalInfoSection .personalImgContainer > img {
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    width: 320px;
+    height: 415px;
+    border-radius: 0 0 0px 85px;
+  }
+  
+ 
+
+  .personalInfoSection .personalInfoDescription {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    max-width: 570px;
+  }
+
+  .personalInfoSection .personalInfoDescription > h6 {
+    line-height: 1em;
+  }
+
+  .personalInfoSection .professionalTitle {
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+
+  .personalInfoDescription .descriptionContent {
+    font-size: 12px;
+  }
+
+  .personalInfoDescription input {
+    margin-top: 5px;
+    width: 200px;
+  }
+  /* .personalInfoSection .personalInfoDescription>p{
+    margin: 20px 0px
+  } */
+  

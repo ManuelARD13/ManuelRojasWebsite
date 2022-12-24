@@ -1,0 +1,28 @@
+.contactSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    min-height: 93.5vh;
+    padding: 6.5vh 100px 0 150px;
+    background-color: rgb(2,2,2);
+    gap: 25px;
+}
+
+.contactSection .contactColumns {
+    max-width: 35vw;
+}
+
+.contactSection .contactDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px;
+}
+
+.contactSection .contactIcon {
+    font-size: 28px;
+}
+
+.contactSection .contactIcon > path {
+    fill: white;
+}
